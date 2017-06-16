@@ -1,6 +1,7 @@
 ---
 layout: page
 title: To Make a Murder
+date: 2017-02-23 13:30:58
 tags: experimental narrative mystery
 img:  ToMakeAMurder.png
 link: ToMakeAMurder.pdf

@@ -2,6 +2,7 @@
 layout: post
 title: 6 Days to Adventure
 description: a one-page RPG
+date: 2016-12-23 13:13:33
 img: 6DaystoAdventure.png
 link: 6DaystoAdventure.pdf
 tags: pulp action d6s Acts

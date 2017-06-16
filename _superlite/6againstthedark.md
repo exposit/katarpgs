@@ -2,6 +2,7 @@
 layout: post
 title: 6 Against the Dark
 description: a one-page RPG
+date: 2016-12-23 13:13:33
 img: 6AgainstTheDark.png
 link: 6AgainstTheDark.pdf
 tags: horror d6s Acts

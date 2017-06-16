@@ -2,6 +2,7 @@
 layout: post
 title: Starfarer
 description: a one-page RPG
+date: 2017-01-25 11:12:59
 img:  Starfarer.png
 link: Starfarer.pdf
 tags: [science fiction, d6s, pbta, lady blackbird]

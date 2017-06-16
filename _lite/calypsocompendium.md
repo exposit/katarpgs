@@ -1,6 +1,7 @@
 ---
 layout: page
 title: The Calypso Compendium
+modified: 2017-03-13 16:53:51
 tags: [pbta, lady blackbird, d6s]
 img:  TheCalypsoCompendium.png
 link: TheCalypsoCompendium.pdf

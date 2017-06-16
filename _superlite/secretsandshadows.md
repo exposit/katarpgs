@@ -2,6 +2,7 @@
 layout: post
 title: Secrets & Shadows
 description: a one-page RPG
+date: 2017-01-16 11:12:59
 img:  SecretsandShadows.png
 link: SecretsandShadows.pdf
 tags: [paranormal romance, d6s, pbta, lady blackbird]

@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Heirs of Sea & Shadow
+date: 2017-05-14 16:43:39
 tags: heroic dynastic d10s
 img: HeirsofSeaandShadow.png
 link: HeirsofSeaandShadow.pdf

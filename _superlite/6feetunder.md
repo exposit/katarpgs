@@ -2,6 +2,7 @@
 layout: post
 title: 6 Feet Under
 description: a one-page RPG
+date: 2016-12-23 13:13:33
 img: 6FeetUnder.png
 link: 6FeetUnder.pdf
 tags: [noir, d6s, pbta-like , screenwriting structure]
