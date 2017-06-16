@@ -1,0 +1,39 @@
+# Site settings
+title: katamoiran
+author: exposit
+email: alto.dizi@gmail.com
+shorttitle: Pen & Paper & Python
+baseurl: "/katarpgs" # the subpath of your site, e.g. /blog
+url: "https://exposit.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  exposit
+
+# Build settings
+markdown: kramdown
+
+permalink: /:year/:month/:day/:title/
+
+include:
+  - _pages
+  - img
+  - css
+  - pdf
+
+#highlighter: pygments
+
+# Pagination
+paginate: 5
+paginate_path: "/blog/page:num/"
+excerpt_length: 25
+
+collections:
+  superlite:
+    output: true
+    permalink: /superlite/:path/
+  lite:
+    output: true
+    permalink: /lite/:path/
+  challenge:
+    output: true
+    permalink: /challenge/:path/
+
+gems: [jekyll-paginate]
