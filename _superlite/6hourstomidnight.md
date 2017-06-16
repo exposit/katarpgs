@@ -1,8 +1,9 @@
 ---
 layout: post
 title: 6 Hours to Midnight
+date: 2016-12-14 11:53:16
 description: a one-page RPG
-img:  6HourstoMidnight.png
+img:  6HoursToMidnight.png
 link: 6HoursToMidnight.pdf
 tags: [romance, high fantasy, d6s, stylized scenes]
 ---
