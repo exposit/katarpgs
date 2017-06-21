@@ -10,7 +10,7 @@ navlink: challenge
 {% if project.redirect %}
 <div class="project">
     <div class="thumbnail">
-        <a href="{{ site.baseurl }}/pdf/{{ project.redirect }}" target="_blank">
+        <a href="{{ project.redirect }}" target="_blank">
         {% if project.img %}
         <img class="thumbnail" src="{{ site.baseurl }}/img/{{ project.img }}"/>
         {% else %}

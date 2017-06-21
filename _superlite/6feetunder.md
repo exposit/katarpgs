@@ -18,5 +18,5 @@ I was about halfway done with it when I got bowled over by illness, and by the t
 	<a href="{{ site.baseurl }}/pdf/{{ page.link }}"><img class="col three" src="{{ site.baseurl }}/img/{{ page.img}}" alt="" title="{{ page.title }}"/></a>
 </div>
 <div class="col three caption">
-	<a href="{{ site.baseurl }}/pdf/{{ link }}">{{ page.title }}</a>
+	<a href="{{ site.baseurl }}/pdf/{{ page.link }}">{{ page.title }}</a>
 </div>
