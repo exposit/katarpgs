@@ -26,7 +26,7 @@ The first game of my "one microRPG game a month" challenge; a two d6 attempt at 
 	<a href="{{ site.baseurl }}/pdf/{{ page.link }}">{{ page.title }}</a>
 </div>
 
-I also wrote a [companion adventure](https://exposit.github.io/katarpgs/superlite/conflictsandcomplications/) in the "CYOA" format; it's mostly system agnostic and plays into the example game in *Conflicts & Complications*. It's also highly experimental; an attempt to control the narrative while allowing plenty of room for improvisation.
+I also wrote a companion adventure in a loose "CYOA" format; it's mostly system agnostic and plays into the example game in *Conflicts & Complications*. It's also highly experimental; an attempt to control the narrative while allowing plenty of room for standard solo improvisation.
 
 I was trying to go for a companion format for C&C that would be easily moddable but I don't think this is it!
 
