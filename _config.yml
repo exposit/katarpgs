@@ -17,6 +17,7 @@ include:
   - img
   - css
   - pdf
+  - tex
 
 #highlighter: pygments
 

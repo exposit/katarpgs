@@ -1,0 +1,316 @@
+% !TEX engine = xelatex
+
+\documentclass[10pt,oneside,a4paper,landscape]{memoir}
+
+\usepackage[lmargin=15mm,rmargin=15mm,bmargin=20mm,tmargin=20mm,bindingoffset=0mm,heightrounded]{geometry}
+
+\usepackage[T1]{fontenc}
+\usepackage [english]{babel}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+
+\usepackage[absolute]{textpos}
+
+\usepackage{graphicx}
+
+\setsecnumformat{}
+
+\newlength\tindent
+\setlength{\tindent}{\parindent}
+\setlength{\parindent}{0pt}
+\renewcommand{\indent}{\hspace*{\tindent}}
+\setlength{\parskip}{.5\baselineskip}%
+\setlength{\parindent}{0pt}%
+
+% Fonts
+
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Avenir-Medium}
+\setmonofont[Scale=MatchLowercase]{Andale Mono}
+\setmainfont[Ligatures=TeX,Scale=1]{Alegreya}
+
+\newfontfamily\titlefont[Ligatures=TeX,Scale=1.9]{Almendra SC Bold}
+\newfontfamily\sectionfont[Ligatures=TeX,Scale=1]{Amaranth Bold}
+\newfontfamily\promofont[Ligatures=TeX,Scale=1.05]{Istok Web}
+\newfontfamily\playfont[Ligatures=TeX,Scale=1]{Istok Web}
+\newfontfamily\asidefont[Ligatures=TeX,Scale=1]{Istok Web}
+
+%\newfontfamily\ornament[Ligatures=TeX,Scale=1]{Nymphette}
+
+\usepackage{adforn}
+\newcommand*\sep[0]{\adforn{73} }
+\newcommand*\widesep[0]{\adforn{21} }
+
+\usepackage[table]{xcolor}
+
+\usepackage{multicol}
+\usepackage{tabularx}
+\usepackage{multirow}
+
+\setlength\columnsep{10mm}
+
+\usepackage{tikz}
+\usetikzlibrary{decorations.text}
+
+\usepackage{rotating}
+
+\usepackage[absolute]{textpos}
+\setlength{\TPHorizModule}{1mm}
+\setlength{\TPVertModule}{1mm}
+
+\definecolor{plainboxbg}{gray}{.95}
+\definecolor{margintext}{rgb}{1,0,0}
+\definecolor{offwhite}{HTML}{F1f1f1}
+
+\usepackage{tcolorbox}
+\tcbuselibrary{skins}
+\tcbuselibrary{hooks}
+\tcbuselibrary{raster}
+
+\newtcolorbox{plainboxx}[1][]{fonttitle=\color{white}\headfont,arc=4mm,outer arc=1mm, colframe=black, colback=plainboxbg, #1}
+
+\usepackage{hyperref}
+
+% new commands
+\newcommand*\sect[1]{\section{\sectionfont{#1}}}
+\newcommand*\subsect[1]{\subsection{\sectionfont{#1}}}
+
+\newcommand*\logo[1]{\begin{center}\titlefont{#1}\end{center}}
+\newcommand*\promo[1]{\promofont{\large{#1}}}
+\newcommand*\aside[1]{{\textit{\asidefont{#1}}}}
+\newcommand*\play[1]{{\playfont{#1}}}
+
+\usepackage{eso-pic}% http://ctan.org/pkg/eso-pic
+\usepackage{graphicx}
+
+\newcommand\AtPageUpperMyLeft[1]{\AtPageUpperLeft{%
+ \put(\LenToUnit{.5cm},\LenToUnit{-.5cm}){#1}%
+ }}%
+
+\newcommand\AtPageLowerMyRight[1]{\AtPageUpperLeft{%
+  \put(\LenToUnit{23cm},\LenToUnit{-14.5cm}){#1}%
+  }}%
+
+\graphicspath{ {images/} }
+
+% this will put a framing picture in the upper left and lower right, image is from open clip art
+%\AddToShipoutPictureBG{%
+%  \AtPageUpperMyLeft{\raisebox{-\height}{\includegraphics[width=2.5in]{Anonymous-celtic-vine-corner-2400px.png}}}%
+%  \AtPageLowerMyRight{\raisebox{-\height}{\includegraphics[width=2.5in,angle=180]{Anonymous-celtic-vine-corner-2400px.png}}}%
+%}
+
+\pagestyle{empty}
+
+%%% BEGIN DOCUMENT
+
+% The comments below here are bits of text that I liked but couldn't make fit
+
+\begin{document}
+
+\setlength\columnsep{10mm}
+\begin{multicols}{2}
+
+\setlength\columnsep{10mm}
+  \begin{multicols}{2}
+
+  {\logo{A Simple Solo Delve}}
+
+  {\promo{\textbf{so·lo} [\textit{verb}] 1. to perform or accomplish something by oneself.}}
+
+  Ready for adventure? You need a game system (like D\&D), some dice, a character, and a way to take notes.
+
+  You'll play the game system you chose; this framework will play the GM's role.
+
+  %And a willingness to step outside your usual "player" role and take some of the initiative.
+
+  %\sect{Replacing the GM}
+
+  Whenever the GM would do a GM thing -- set a scene, answer a question, act as an NPC -- ask the Oracle or roll on a random chart instead.
+
+  When interpreting, trust your instincts and discard nonsense!
+
+  %There are many Oracles, but here's one.
+
+  %Frame a "yes" or "no" question and roll a d6. Add +1 if it is likely, -1 if it is unlikely.
+
+  \normalsize
+  \sect{The Oracle}
+  \begin{tabularx}{\columnwidth}{XXXXXX}
+    1-&2&3&4&5&6+\\
+  No and & No & No but & Yes but & Yes & Yes and \\
+  \end{tabularx}
+  \normalsize
+
+  An "and" answer is intensified. A "but" answer is twisted or weakened.
+
+  \sect{Pushing Forward}
+
+  When you're not sure what's next or you roll doubles, roll an Element and Event and interpret them as a surprise event.
+
+  \sect{Goals}
+
+  When you set a goal, explore 1d6 rooms before rolling again. Add +1 to each roll after the first; on a 7+ it's in the next room.
+
+  \vfill\null
+  \columnbreak
+
+  \aside{I've made my hero using the rules in the handbook; it's time to roll a starting scene. I roll a d6 and get a 1.}
+
+  \aside{lost in the desert \sep at sea \sep in a tavern \sep in a forest \sep in a tomb \sep in a fight!}
+
+  \play{I'm lost in the desert after a bandit attack on my caravan.}
+
+  \aside{Is there anything nearby? 6; yes, and... it's large. A pyramid? 5, yes.}
+
+  \play{I head in, looking for resources.}
+
+  \center \widesep
+
+  \flushleft
+
+  \aside{So what's this room like?}
+
+  \aside {crumbling \sep dirty \sep disused \sep smooth \sep lavish \sep slippery}
+
+  \aside{large \sep small \sep medium \sep cavern \sep great \sep chamber}
+
+  %\aside{round \sep square \sep oval \sep elongated \sep rectangular \sep trapezoidal}
+
+  \aside{sleep \sep eat \sep bodily function \sep prison \sep work \sep play }
+
+  \aside{A crumbling (1), dirty (2) cavern (4) that's used for sleeping (4)? Sounds like a barracks.}
+
+  \aside{[2-] Monster \sep [3] Trap \sep [4] Special \sep [6+] Empty}
+
+  \aside{A monster (1), a hungry (1-4) spider (2-5)! Time to use the system mechanics. I look up a stat block, then roll to sneak by.}
+
+  \aside{Failure! It's a fight! I turn to the "Combat" section of my rulebook...}
+
+  \center \widesep
+
+  \flushleft
+
+  \vfill\null
+
+  \end{multicols}
+
+  \columnbreak
+
+  \begin{multicols}{2}
+
+    \aside{I've fought my way down, to a room with a Special feature (5).}
+
+    \aside{A statue (1-2), of the Sun (6-1). Is it portable? (1) No, and it weighs a ton.}
+
+    \play{Recklessly, I touch it.}
+
+    \aside{stronger \sep weaker \sep injury \sep attack \sep asleep \sep teleport}
+
+    \aside{Stronger (1). Is it temporary? (5) Yes. I check for a potion to use as the base.}
+
+    \center \widesep
+
+    \flushleft
+
+    \sect{What Does It Do?}
+    \footnotesize
+    \begin{tabularx}{\columnwidth}{p{.05cm}|X|p{.05cm}|X|p{.05cm}|X}
+    1 & Search & 2 & Steal & 3 & Fix \\
+    4 & Hunt & 5 & Build & 6 & Kill \\
+    \end{tabularx}
+    \normalsize
+
+    \sect{Why?}
+    \footnotesize
+    \begin{tabularx}{\columnwidth}{p{.05cm}|X|p{.05cm}|X|p{.05cm}|X}
+    1 & Rebel & 2 & History & 3 & Desire \\
+    4 & Honor & 5 & Mistake & 6 & Debt \\
+    \end{tabularx}
+    \normalsize
+
+    \vfill\null
+    \columnbreak
+
+    \flushleft
+
+    \aside{Time to move. How many exits? 1 (a d6, divided by 2, and rounded up).}
+
+    \aside{north \sep south \sep east \sep west \sep up \sep down}
+
+    \aside{straight \sep bend left \sep bend right \sep slope up \sep slope down \sep doubles back}
+
+    \aside{Looks like I'm headed down (6), on a slope (5). Adventure awaits!}
+
+    \center \widesep
+
+    \flushleft
+
+    \sect{What's the NPC Do?}
+    \footnotesize
+    \begin{tabularx}{\columnwidth}{p{.05cm}|X|p{.05cm}|X|p{.05cm}|X}
+    1 & Indulges & 2 & Betrays & 3 & Fails \\
+    4 & Helps & 5 & Reveals & 6 & Flees \\
+    \end{tabularx}
+    \normalsize
+
+    \sect{Event}
+    \footnotesize
+    \begin{tabularx}{\columnwidth}{p{.05cm}|X|p{.05cm}|X|p{.05cm}|X}
+    1 & Injury & 2 & Escalation & 3 & Backfire! \\
+    4 & NPC & 5 & Obstacle & 6 & Reversal \\
+    \end{tabularx}
+    \normalsize
+
+  \end{multicols}
+
+  \sect{Room Contents}
+  \footnotesize
+  \begin{tabularx}{\columnwidth}{p{.05cm}|X|X|X|X|X|X}
+   & 1 & 2 & 3 & 4 & 5 & 6 \\
+  1 & Cage & Statue & Sack & Box & Draft & Body \\
+  2 & Bucket & Perfume & Blood & Cauldron & Scrolls & Chest \\
+  3 & Pedestal & Wet floor & Mural & Furniture & Golem & Mirror \\
+  4 & Lake & Fountain & Jars & Bed & Camp & Rack \\
+  5 & Forge & Pack & Books & Grate & Niche & Hole \\
+  6 & Nest & Bones & Altar & Rubble & Chain & Toy \\
+  \end{tabularx}
+  \normalsize
+
+  \sect{Elements (Literal or Figurative)}
+  \footnotesize
+  \begin{tabularx}{\columnwidth}{p{.05cm}|X|X|X|X|X|X}
+   & 1 & 2 & 3 & 4 & 5 & 6 \\
+  1 & Rider & Clover & Ship & House & Tree & Clouds \\
+  2 & Snake & Coffin & Bouquet & Scythe & Whip & Birds \\
+  3 & Child & Fox & Bear & Stars & Storks & Dog \\
+  4 & Tower & Garden & Mountain & Crossroad & Mice & Heart \\
+  5 & Ring & Book & Letter & Man & Woman & Lily \\
+  6 & Sun & Moon & Key & Fish & Anchor & Cross \\
+  \end{tabularx}
+  \normalsize
+
+  \begin{textblock*}{200mm}(165mm,190mm)
+    {\sectionfont\center{\textit{\href{https://exposit.github.io/katarpgs/}{https://exposit.github.io/katarpgs}} \quad \textit{Last updated \textbf{\today}.}}}
+  \end{textblock*}
+
+  \begin{textblock*}{100mm}(180mm,4mm)
+  \noindent \textit{\textcolor{black}{1-2: cruel \sep depraved \sep brave \sep hungry \sep miserable \sep insane \\ 3-4: degenerate \sep kind \sep obsessive \sep magical \sep superior \sep barbaric \\ 5-6: mutated \sep greedy \sep generous \sep hateful \sep fearful \sep trapped }}
+  \end{textblock*}
+
+  \begin{textblock*}{110mm}(10mm,192mm)
+  \noindent \textit{\textcolor{black}{
+  1-2: beast \sep sentient beast \sep goblinoid \sep elf \sep spider \sep aberration \\
+  3-4: insect \sep humanoid \sep demihuman \sep automaton \sep elemental \sep magical beast \\
+  5-6: plant \sep mindless undead \sep vermin \sep sentient undead \sep demon  \sep abomination }}
+  \end{textblock*}
+
+  \begin{textblock*}{200mm}(155mm,202mm)
+  \noindent \textit{\textcolor{black}{
+  These techniques are universal to soloing; you can find more at the \href{https://plus.google.com/communities/116965157741523529510}{Lone Wolf Google+ Group}}}
+  \end{textblock*}
+
+
+\end{multicols}
+
+\end{document}
