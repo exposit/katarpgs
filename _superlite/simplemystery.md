@@ -2,6 +2,7 @@
 layout: post
 title: Simple Mystery Framework
 description: a one-page RPG
+date: 2017-01-01 11:12:59
 img:  SimpleMysteryFramework.png
 link: SimpleMysteryFramework.pdf
 tags: open-ended systemless

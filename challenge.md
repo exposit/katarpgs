@@ -5,7 +5,7 @@ permalink: /challenge/
 navlink: challenge
 ---
 
-{% for project in site.challenge %}
+{% for project in site.challenge reversed %}
 
 {% if project.redirect %}
 <div class="project">

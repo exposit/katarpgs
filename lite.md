@@ -5,7 +5,7 @@ permalink: /lite/
 navlink: lite
 ---
 
-{% for project in site.lite %}
+{% for project in site.lite reversed %}
 
 {% if project.redirect %}
 <div class="project">
