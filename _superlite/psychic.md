@@ -5,7 +5,6 @@ date: 2017-07-07 17:39:35
 tags: [omgam, pool, July, d6s]
 img: Psychic.png
 link: Psychic.pdf
-redirect: https://exposit.github.io/katarpgs/superlite/psychic/
 ---
 
 The second game of my "one microRPG game a month" challenge (OMGAM).
