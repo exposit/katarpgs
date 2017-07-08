@@ -5,7 +5,7 @@ permalink: /superlite/
 navlink: superlite
 ---
 
-{% for project in site.superlite %}
+{% for project in site.superlite | reverse %}
 
 {% if project.redirect %}
 <div class="project">
