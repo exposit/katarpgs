@@ -9,7 +9,7 @@ link: HeirsofSeaandShadow.pdf
 
 A game of romantic fantasy inspired by the punchy, swingy, rapid-fire play of *Trollbabe* and *Stranger Things*. Well, it's punchy and swingy the way I play it, anyway.
 
-*Heirs* is a bit crunchier than Calypso, with a more concrete injury path and proscribed rerolls that push you down that injury track surprisingly quickly. The core merchanic uses sliders, between 1 and 10, to represent your hero's approach to a problem, and an over-under mechanic to determine success or failure.
+*Heirs* is a bit crunchier than Calypso, with a more concrete injury path and proscribed rerolls that push you down that injury track surprisingly quickly. The core mechanic uses sliders, between 1 and 10, to represent your hero's approach to a problem, and an over-under mechanic to determine success or failure.
 
 There's also a full (albeit mini) descending darkness setting. With talking animals, giants, and angry trees.
 
