@@ -1,6 +1,6 @@
 ---
 layout: page
-title: One \& Thousands
+title: One & Thousands
 date: 2017-07-28 12:15:38
 tags: [rabbits, pool, l&f, d6s, 24hrs]
 img: OneThousands.png
