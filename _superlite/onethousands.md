@@ -7,9 +7,9 @@ img: OneThousands.png
 link: OneThousands.pdf
 ---
 
-I was inspired by Chad Robb to write a Lasers & Feelings hack inspired by [Watership Down](https://en.wikipedia.org/wiki/Watership_Down).
+I was inspired by Chad Robb to write a [Lasers & Feelings](http://www.onesevendesign.com/laserfeelings/) hack inspired by [Watership Down](https://en.wikipedia.org/wiki/Watership_Down).
 
-I'm not surprised people hack this system constantly; it's really very elegant.
+I'm not surprised people hack this system frequently; it's really very elegant. And the symmetry appeals.
 
 Anyway, you control 1d6+1 bunnies, attempting to survive and reestablish their colony. Watch out for dogs!
 
