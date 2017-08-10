@@ -14,8 +14,8 @@ I was intrigued by the "compelled" actions in a 200 Word RPG entry, [Last Night 
 For my play test, I used this big list of [Witch traits](http://dndwithpornstars.blogspot.com/2014/08/d100-witch-traits.html) to add some color, sex, and creepiness.
 
 * Uses a d36 chart or deck of cards as the oracle, d6s as the randomizer.
-* pbta style core mechanic drawing on stat pools
-* stat pools you have to manage or risk chaos
+* Pbta style core mechanic drawing on stat pools
+* Stat pools you have to manage or risk chaos
 
 <div class="img_row">
 	<a href="{{ site.baseurl }}/pdf/{{ page.link }}"><img class="col three" src="{{ site.baseurl }}/img/{{ page.img}}" alt="" title="{{ page.title }}"/></a>
