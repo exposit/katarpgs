@@ -2,7 +2,7 @@
 layout: page
 title: A Death Shroud on the World Entire
 date: 2017-08-10 15:31:48
-tags: [witches, omgam, stats, cards, d6s]
+tags: [witches, omgam, cards, d6s]
 img: Shroud.png
 link: Shroud.pdf
 ---

@@ -2,7 +2,7 @@
 layout: page
 title: Player Emulator with Tags
 date: 2017-09-05 18:40:11
-tags: [omgam, September, meta, d6s, framework]
+tags: [omgam, Sept, meta, d6s]
 img: PlayerEmulator.png
 redirect: https://exposit.github.io/katarpgs/superlite/playeremulator/
 ---
