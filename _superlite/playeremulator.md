@@ -2,7 +2,7 @@
 layout: page
 title: Player Emulator with Tags
 date: 2017-09-05 18:40:57
-tags: [omgam, d6s, meta, framework]
+tags: [omgam, September, meta, d6s, framework]
 img: PlayerEmulator.png
 link: PlayerEmulator.pdf
 ---
