@@ -17,7 +17,7 @@ In play-testing I found this made for a very lively adventure with constant reve
 
 * Dice pool resolution that's kinda AW-inspired, with on-the-fly Trait creation.
 * Lots of tables, mostly new, and explicit directions for most of them.
-* Scene-based, with a meter-controlled structure that triggers plot events and the end game.
+* Scene-based; meters trigger plot events and the end game.
 * Instructions for using it as a framework for other scenarios.
 * A play example.
 
