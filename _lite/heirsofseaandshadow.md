@@ -2,10 +2,13 @@
 layout: page
 title: Heirs of Sea & Shadow
 date: 2017-05-14 16:43:39
+updated: 2017-10-09 14:28:01
 tags: heroic dynastic d10s
 img: HeirsofSeaandShadow.png
 link: HeirsofSeaandShadow.pdf
 ---
+
+10/09: Updated Dynasty rules, clarified a few things, fixed some typos. And added quite a few more charts.
 
 A game of romantic fantasy inspired by the punchy, swingy, rapid-fire play of *Trollbabe* and *Stranger Things*. Well, it's punchy and swingy the way I play it, anyway.
 
