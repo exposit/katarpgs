@@ -15,7 +15,7 @@ Anyway, in EoF your hero is a Soul, a dead human who has been empowered by Fate 
 
 Heroes divide their time between the bright, searingly surreal Ghostwilds, where they are marshals and fate mages, and the dreary Real, where they are merely ghosts.
 
-The system is strongly influenced by Everway and Otherkind dice, and built around a deck of 36 cards I built specifically for this contest.
+The system is strongly influenced by Everway and Otherkind dice, and built around a deck of 36 cards I built specifically for the Game Chef 2017 contest.
 
 <div class="img_row">
 	<a href="{{ site.baseurl }}/pdf/{{ page.link }}"><img class="col three" src="{{ site.baseurl }}/img/{{ page.img}}" alt="" title="{{ page.title }}"/></a>
