@@ -19,7 +19,7 @@ It's fast, cyclic, and incredibly lethal; your pool of actors essentially serves
 * Ensemble play; you control one of six actors at a time, jumping between them.
 * Quite a few tables.
 
-\*Remember the limitations of pdfs, though. Saving filled forms doesn't work very well unless you have a really awesome version of Adobe. I made it work on two different playthroughs; I just kept the pdf open and took the occasional screenshot in case I needed to recreate it.
+\* Checkboxes should save properly now; be sure to test before using.
 
 <div class="img_row">
 	<a href="{{ site.baseurl }}/pdf/{{ page.link }}"><img class="col three" src="{{ site.baseurl }}/img/{{ page.img}}" alt="" title="{{ page.title }}"/></a>
