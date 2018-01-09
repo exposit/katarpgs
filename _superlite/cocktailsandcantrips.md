@@ -4,7 +4,7 @@ title: Cocktails & Cantrips
 date: 2017-12-31 23:39:35
 tags: [omgam, December, Otherkind, d6s]
 img: CocktailsandCantrips.png
-link: CocktailsandCantrips.pdf
+link: CocktailsAndCantrips.pdf
 ---
 
 The seventh (!) game of my "one microRPG game a month" challenge. This one came in just under the wire; I uploaded it at about three minutes to midnight on the last day of 2017.
