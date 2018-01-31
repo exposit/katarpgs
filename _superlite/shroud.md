@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: superlite
 title: A Death Shroud on the World Entire
 date: 2017-08-10 15:31:48
 tags: [witches, omgam, cards, d6s]
@@ -16,10 +16,3 @@ For my play test, I used this big list of [Witch traits](http://dndwithpornstars
 * Uses a d36 chart or deck of cards as the oracle, d6s as the randomizer.
 * Pbta style core mechanic drawing on stat pools
 * Stat pools you have to manage or risk chaos
-
-<div class="img_row">
-	<a href="{{ site.baseurl }}/pdf/{{ page.link }}"><img class="col three" src="{{ site.baseurl }}/img/{{ page.img}}" alt="" title="{{ page.title }}"/></a>
-</div>
-<div class="col three caption">
-	<a href="{{ site.baseurl }}/pdf/{{ page.link }}">{{ page.title }}</a>
-</div>

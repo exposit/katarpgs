@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: superlite
 title: Broken
 date: 2018-01-28 14:43:49
 tags: [omgam, January, pbta, d6s]
@@ -21,10 +21,3 @@ In play, it's punchy and quick, almost breezy, and feels very much like a novel 
 * advancement system
 * complication charts
 * fillable pdf character sheet
-
-<div class="img_row">
-	<a href="{{ site.baseurl }}/pdf/{{ page.link }}"><img class="col three" src="{{ site.baseurl }}/img/{{ page.img}}" alt="" title="{{ page.title }}"/></a>
-</div>
-<div class="col three caption">
-	<a href="{{ site.baseurl }}/pdf/{{ page.link }}">{{ page.title }}</a>
-</div>

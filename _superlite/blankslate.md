@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: superlite
 title: Blank Slate
 date: 2017-09-12 19:09:01
 tags: [omgam, pool, September, d6s]
@@ -20,10 +20,3 @@ In play-testing I found this made for a very lively adventure with constant reve
 * Scene-based; meters trigger plot events and the end game.
 * Instructions for using it as a framework for other scenarios.
 * A play example.
-
-<div class="img_row">
-	<a href="{{ site.baseurl }}/pdf/{{ page.link }}"><img class="col three" src="{{ site.baseurl }}/img/{{ page.img}}" alt="" title="{{ page.title }}"/></a>
-</div>
-<div class="col three caption">
-	<a href="{{ site.baseurl }}/pdf/{{ page.link }}">{{ page.title }}</a>
-</div>

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: superlite
 title: 6 Days to Adventure
 description: a one-page RPG
 date: 2016-12-23 13:13:33
@@ -13,10 +13,3 @@ tags: pulp action d6s Acts
 Built around a board-game-style three Act structure with a simple dice resolution mechanic (using a "purchase results" method). Like 6 Hours, designed for one shot, or at least self-contained stories; you start at the beginning, rough out a character in broad strokes, then play through the steps (scenes) in order.
 
 Designed for solo but with more room (and less constrained roles) than *6 Hours to Midnight* for multiple players. The framework is also suitable for running by a GM.
-
-<div class="img_row">
-	<a href="{{ site.baseurl }}/pdf/{{ page.link }}"><img class="col three" src="{{ site.baseurl }}/img/{{ page.img}}" alt="" title="{{ page.title }}"/></a>
-</div>
-<div class="col three caption">
-	<a href="{{ site.baseurl }}/pdf/{{ page.link }}">{{ page.title }}</a>
-</div>

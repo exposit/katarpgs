@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: superlite
 title: Blindside
 date: 2017-11-14 20:03:23
 tags: [omgam, pools, November, d6s]

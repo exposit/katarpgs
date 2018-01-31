@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: superlite
 title: Threat
 date: 2017-10-09 16:22:22
 tags: [omgam, pbta, October, d6s]
@@ -20,10 +20,3 @@ It's fast, cyclic, and incredibly lethal; your pool of actors essentially serves
 * Quite a few tables.
 
 \* Checkboxes should save properly now; be sure to test before using.
-
-<div class="img_row">
-	<a href="{{ site.baseurl }}/pdf/{{ page.link }}"><img class="col three" src="{{ site.baseurl }}/img/{{ page.img}}" alt="" title="{{ page.title }}"/></a>
-</div>
-<div class="col three caption">
-	<a href="{{ site.baseurl }}/pdf/{{ page.link }}">{{ page.title }}</a>
-</div>
