@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: superlite
 title: Into The Maze
 date: 2018-03-31 23:22:44
 tags: [omgam, March, d6s]
