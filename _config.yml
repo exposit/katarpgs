@@ -36,5 +36,8 @@ collections:
   challenge:
     output: true
     permalink: /challenge/:path/
+  misc:
+    output: true
+    permalink: /misc/:path/
 
 plugins: [jekyll-paginate]
