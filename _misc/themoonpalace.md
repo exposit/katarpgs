@@ -2,7 +2,7 @@
 layout: page
 title: The Moon Palace
 date: 2018-11-24 11:19:32
-tags: [pbta, wodu, dungeon world]
+tags: [dungeon, pbta, wodu, dungeon world]
 img: TheMoonPalace.png
 link: TheMoonPalace.pdf
 ---
