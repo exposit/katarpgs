@@ -11,7 +11,7 @@ The first game of the "one microRPG game a month" challenge (OMGAM)[https://expo
 
 A quick solo riff on Otherkin and [6 Hours to Midnight]({{site.baseurl}}/superlite/6hourstomidnight/) to get back in the swing of things! The theme is "nephilim", in an homage to my current UMF campaign.
 
-* medium-weight theming but easily reskinnable
+* Medium-weight theming but easy to reskin.
 * Dice pool resolution with assignment.
 * Lots of tables. Not really that much new there.
 * Scene-based, with a simple metered chain of plot events.
