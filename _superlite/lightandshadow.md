@@ -7,7 +7,7 @@ img: Light_and_Shadow_1.png
 link: Light_and_Shadow.pdf
 ---
 
-The first game of the "one microRPG game a month" challenge (OMGAM)[https://exposit.github.io/omgam/] for 2019.
+The first game of the "one microRPG game a month" challenge <a href="https://exposit.github.io/omgam/">OMGAM</a>for 2019.
 
 A quick solo riff on Otherkin and [6 Hours to Midnight]({{site.baseurl}}/superlite/6hourstomidnight/) to get back in the swing of things! The theme is "nephilim", in an homage to my current UMF campaign.
 
@@ -15,3 +15,10 @@ A quick solo riff on Otherkin and [6 Hours to Midnight]({{site.baseurl}}/superli
 * Dice pool resolution with assignment.
 * Lots of tables. Not really that much new there.
 * Scene-based, with a simple metered chain of plot events.
+
+<div class="img_row">
+	<a href="{{ site.baseurl }}/pdf/{{ page.link }}"><img class="col three" src="{{ site.baseurl }}/img/{{ page.img}}" alt="" title="{{ page.title }}"/></a>
+</div>
+<div class="col three caption">
+	<a href="{{ site.baseurl }}/pdf/{{ page.link }}">{{ page.title }}</a>
+</div>
