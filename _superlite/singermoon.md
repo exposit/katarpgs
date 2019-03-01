@@ -1,5 +1,5 @@
 ---
-layout: superlite
+layout: page
 title: Singer Moon
 date: 2019-02-28 23:45:39
 tags: [omgam, pbta, February, 2, 2019, cards]
